@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "INMP441_Module")(type "KiCad")(uri "${KIPRJMOD}/INMP441_Module.kicad_sym")(options "")(descr ""))
+  (lib (name "TM1637_Module")(type "KiCad")(uri "${KIPRJMOD}/TM1637_Module.kicad_sym")(options "")(descr ""))
+)
