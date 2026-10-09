@@ -3704,12 +3704,6 @@
 		(uuid "0899d9f3-a8b6-4e95-a447-eb3844d846e9")
 	)
 	(junction
-		(at 255.27 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08dd6796-9792-4c7c-b692-4e27434919dc")
-	)
-	(junction
 		(at 217.17 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3752,12 +3746,6 @@
 		(uuid "37af3ace-1bd7-4b66-8f67-9ce8e37324e1")
 	)
 	(junction
-		(at 224.79 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3845ec36-37f4-4e27-b0e8-8aaecb42310d")
-	)
-	(junction
 		(at 264.16 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3768,12 +3756,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39a1464d-037f-496a-b172-1380906e709e")
-	)
-	(junction
-		(at 217.17 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a88e2b1-8115-4dca-92d7-1b3ca66f4672")
 	)
 	(junction
 		(at 113.03 185.42)
@@ -3792,12 +3774,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "455b53ce-25bb-44a6-8344-625841dad29d")
-	)
-	(junction
-		(at 224.79 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c8de6c0-5f6f-4434-8bb6-7f589f7e6353")
 	)
 	(junction
 		(at 215.9 71.12)
@@ -3842,12 +3818,6 @@
 		(uuid "630efacd-5c3a-4e2b-8310-f202d9a01634")
 	)
 	(junction
-		(at 217.17 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63eb4f94-1c38-4aff-9aef-42ea3cc0c362")
-	)
-	(junction
 		(at 209.55 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3878,12 +3848,6 @@
 		(uuid "7b926d4f-faea-4a42-9dfe-6f8b1165bbed")
 	)
 	(junction
-		(at 271.78 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c960e32-0af7-47df-8311-ec62f172acbf")
-	)
-	(junction
 		(at 121.92 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3900,12 +3864,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87fce9ed-13a9-4867-aef3-85fb132ee8e3")
-	)
-	(junction
-		(at 209.55 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8958554c-e147-47db-b14c-885735cf7cc3")
 	)
 	(junction
 		(at 247.65 40.64)
@@ -3932,18 +3890,6 @@
 		(uuid "9ee9fd9f-b5d8-4434-adbe-4069ebacb06a")
 	)
 	(junction
-		(at 255.27 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7e89a1e-dff4-4f5e-acde-0f09a0828e25")
-	)
-	(junction
-		(at 271.78 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b75dd5d3-471e-4384-a661-6327a9cd5ef1")
-	)
-	(junction
 		(at 128.27 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3960,6 +3906,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce0b33fc-e3fe-4d8f-9edd-6957d8fbeeb4")
+	)
+	(junction
+		(at 224.79 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d47e638b-3294-4b14-bfc3-470c5a5cc301")
 	)
 	(junction
 		(at 232.41 43.18)
@@ -4002,12 +3954,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f73ce55f-5915-4654-9113-c339d41ea6be")
-	)
-	(junction
-		(at 264.16 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8c71ccf-ac83-4264-9e8d-410ccd17e818")
 	)
 	(wire
 		(pts
@@ -4078,6 +4024,16 @@
 			(type default)
 		)
 		(uuid "088e874e-b7bb-46a6-a8c9-703856b957d6")
+	)
+	(wire
+		(pts
+			(xy 224.79 27.94) (xy 234.95 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f195849-e7d4-4f70-82ef-1c2274b035cd")
 	)
 	(wire
 		(pts
@@ -4298,6 +4254,16 @@
 			(type default)
 		)
 		(uuid "2039bd12-ed5c-474e-a8db-723b97c218cc")
+	)
+	(wire
+		(pts
+			(xy 224.79 35.56) (xy 224.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2200e785-d4f3-46a1-bf23-51f2397230db")
 	)
 	(wire
 		(pts
@@ -4718,16 +4684,6 @@
 			(type default)
 		)
 		(uuid "4fb46f19-7f69-4538-af22-2b111486499a")
-	)
-	(wire
-		(pts
-			(xy 224.79 35.56) (xy 224.79 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "512a1ff2-8c89-42f4-bb62-fdccc7182e64")
 	)
 	(wire
 		(pts
@@ -5288,16 +5244,6 @@
 			(type default)
 		)
 		(uuid "96fa1a25-4966-4c60-9ceb-702df19e13c2")
-	)
-	(wire
-		(pts
-			(xy 224.79 27.94) (xy 234.95 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "976c3e11-f68a-423a-aa3c-44bcde65b524")
 	)
 	(wire
 		(pts
@@ -7123,76 +7069,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 271.78 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "143a7f26-904f-46d3-9b44-17a432867d06")
-		(property "Reference" "C27"
-			(at 275.59 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uf"
-			(at 275.59 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 272.7452 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 271.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b1d75514-6516-42ef-ac59-ab8abeee6ff9")
-		)
-		(pin "1"
-			(uuid "eace42e7-f229-4bfe-9578-dfc294be71f5")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 128.27 179.07 0)
 		(unit 1)
@@ -7942,76 +7818,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 217.17 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "483bf02b-d4e5-4a57-8627-5016c09573d5")
-		(property "Reference" "C13"
-			(at 220.98 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uf"
-			(at 220.98 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.1352 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 217.17 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cbaee072-e320-44a5-b368-78e0d19e5bea")
-		)
-		(pin "1"
-			(uuid "70f49374-e5f1-4d3c-8fc2-0c4e4fc3ab9c")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 209.55 48.26 0)
 		(unit 1)
@@ -8679,76 +8485,6 @@
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 247.65 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6235a5cc-fc3a-4afd-a65d-a45622dc84e7")
-		(property "Reference" "C18"
-			(at 251.46 34.6709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 251.46 37.2109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.6152 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 247.65 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "73e6df9a-555a-409c-aa04-4500ca574209")
-		)
-		(pin "1"
-			(uuid "dd2ea65a-58d5-4bdf-8dff-4a15ac6772ee")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10312,76 +10048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 264.16 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a241c1f-fd16-4381-bf40-013a08698905")
-		(property "Reference" "C24"
-			(at 267.97 79.1209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 267.97 81.6609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.1252 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 264.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26f360e5-06b2-4a82-bcfc-ca9a19aa2b92")
-		)
-		(pin "1"
-			(uuid "428e981f-590e-44e3-ab79-148203cac28d")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 69.85 185.42 0)
 		(unit 1)
@@ -10519,76 +10185,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 217.17 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab324290-d1be-47e5-8ee3-031a3e462c35")
-		(property "Reference" "C11"
-			(at 220.98 30.8609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 220.98 33.4009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.1352 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6f9a55c-7902-4743-8e43-3a3a6b39afe6")
-		)
-		(pin "1"
-			(uuid "5ab2c1b4-f4a1-48fe-9a4d-cea7bdad693b")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 73.66 97.79 0)
 		(unit 1)
@@ -10649,76 +10245,6 @@
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 255.27 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3d6e252-1e16-44f6-b3e3-464484cbee25")
-		(property "Reference" "C21"
-			(at 259.08 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uf"
-			(at 259.08 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.2352 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 255.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cb0dd711-1e5f-4c12-ada3-d91e9ea1e010")
-		)
-		(pin "1"
-			(uuid "f5fad409-d39f-47bd-aa8e-cee51d47ed6e")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10789,76 +10315,6 @@
 			(project "vocoder-pico-hardware"
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 209.55 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9102441-e89e-4765-b1b8-4e7e3c9e013d")
-		(property "Reference" "C10"
-			(at 213.36 46.1009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 213.36 48.6409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.5152 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 209.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef93ec9d-bfdf-4b67-a480-3ac3cbdaee3d")
-		)
-		(pin "1"
-			(uuid "abcbb1d3-a000-4f81-a79e-831954d6faaa")
-		)
-		(instances
-			(project ""
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11345,76 +10801,6 @@
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 224.79 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de892270-54d6-491c-941c-2a6cc51beeae")
-		(property "Reference" "C16"
-			(at 228.6 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uf"
-			(at 228.6 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 225.7552 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 224.79 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5fc98ea2-6528-4884-94bc-ac33a6733fa3")
-		)
-		(pin "1"
-			(uuid "60cdce14-971c-4bb9-8330-7c96ee85795a")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "C16")
 					(unit 1)
 				)
 			)
