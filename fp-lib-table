@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "INMP441_Module")(type "KiCad")(uri "${KIPRJMOD}/INMP441_Module.pretty")(options "")(descr "INMP441 breakout footprint"))
+)
