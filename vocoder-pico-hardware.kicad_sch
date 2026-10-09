@@ -3818,6 +3818,12 @@
 		(uuid "50207325-1af6-4082-9bd2-d27322cad932")
 	)
 	(junction
+		(at 82.55 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55021095-0780-4bde-b793-74805f92a642")
+	)
+	(junction
 		(at 207.01 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3852,6 +3858,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e4aac34-d6ba-45ad-aa25-0210a4c420b2")
+	)
+	(junction
+		(at 82.55 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f4e96a7-2862-48d7-9844-fcca3ef4c86b")
 	)
 	(junction
 		(at 264.16 85.09)
@@ -4079,7 +4091,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 189.23) (xy 78.74 189.23)
+			(xy 74.93 189.23) (xy 82.55 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4536,6 +4548,16 @@
 			(type default)
 		)
 		(uuid "4322edcf-d015-41dc-8076-ec90eee16742")
+	)
+	(wire
+		(pts
+			(xy 82.55 180.34) (xy 93.98 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438ac952-63bf-49fe-9b91-42fbc3180c8f")
 	)
 	(wire
 		(pts
@@ -4999,7 +5021,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 180.34) (xy 93.98 180.34)
+			(xy 69.85 180.34) (xy 82.55 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5679,6 +5701,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 181.61) (xy 82.55 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a7bc41-67fd-4873-afc8-511bdc5a9ce1")
+	)
+	(wire
+		(pts
 			(xy 74.93 170.18) (xy 81.28 170.18)
 		)
 		(stroke
@@ -5836,6 +5868,16 @@
 			(type default)
 		)
 		(uuid "e8e7d155-4e72-4d69-b6e9-3098ae8298a6")
+	)
+	(wire
+		(pts
+			(xy 82.55 189.23) (xy 85.09 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebfa4a68-8254-4216-9089-7853b8243986")
 	)
 	(wire
 		(pts
@@ -6390,7 +6432,7 @@
 	)
 	(global_label "-12V"
 		(shape output)
-		(at 78.74 189.23 0)
+		(at 85.09 189.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6400,7 +6442,7 @@
 		)
 		(uuid "94228556-323e-4c6d-83c0-9105f68c65a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.1442 189.1506 0)
+			(at 92.4942 189.1506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,7 +8764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c037581-67b2-40f9-ae6e-5931ef95d7e7")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 239.6333 48.26 0)
 			(effects
 				(font
@@ -8830,7 +8872,7 @@
 		(instances
 			(project "vocoder-pico-hardware"
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "U1")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -9353,6 +9395,76 @@
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 82.55 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ae113f2-54e6-4193-bcd0-727047c81f58")
+		(property "Reference" "C28"
+			(at 86.36 183.2609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 86.36 185.8009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
+			(at 83.5152 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba61f697-ac15-49d0-a860-8b2ee394d643")
+		)
+		(pin "2"
+			(uuid "dcea8726-541f-4280-a080-ab44d35e3bca")
+		)
+		(instances
+			(project "vocoder-pico-hardware"
+				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
+					(reference "C28")
 					(unit 1)
 				)
 			)
