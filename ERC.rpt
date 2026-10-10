@@ -1,0 +1,40 @@
+ERC-Bericht (2026-10-10T18:36:10+0200, UTF8-kodiert)
+
+***** Schaltplan /
+[no_connect_dangling]: Unverbundene "keine Verbindung"-Kennzeichnung
+    ; warning
+    @(1300 mils, 5650 mils): Keine Verbindung
+[unconnected_wire_endpoint]: Unverbundenes Verbindungsende
+    ; warning
+    @(3250 mils, 6700 mils): Vertikale Verbindung, Länge 150 mils
+[unconnected_wire_endpoint]: Unverbundenes Verbindungsende
+    ; warning
+    @(5800 mils, 7300 mils): Vertikale Verbindung, Länge 50 mils
+[lib_symbol_mismatch]: Symbol "BC547" stimmt nicht mit Kopie in Bibliothek "Transistor_BJT" überein
+    ; warning
+    @(2000 mils, 3900 mils): Symbol Q1 [BC547]
+[lib_symbol_mismatch]: Symbol "GND" stimmt nicht mit Kopie in Bibliothek "power" überein
+    ; warning
+    @(2100 mils, 4200 mils): Symbol #PWR01 [GND]
+[lib_symbol_mismatch]: Symbol "BC547" stimmt nicht mit Kopie in Bibliothek "Transistor_BJT" überein
+    ; warning
+    @(3700 mils, 3900 mils): Symbol Q2 [BC547]
+[lib_symbol_mismatch]: Symbol "GND" stimmt nicht mit Kopie in Bibliothek "power" überein
+    ; warning
+    @(3800 mils, 4200 mils): Symbol #PWR02 [GND]
+[lib_symbol_mismatch]: Symbol "BC547" stimmt nicht mit Kopie in Bibliothek "Transistor_BJT" überein
+    ; warning
+    @(5400 mils, 3900 mils): Symbol Q3 [BC547]
+[lib_symbol_mismatch]: Symbol "GND" stimmt nicht mit Kopie in Bibliothek "power" überein
+    ; warning
+    @(5500 mils, 4200 mils): Symbol #PWR03 [GND]
+[lib_symbol_mismatch]: Symbol "BC547" stimmt nicht mit Kopie in Bibliothek "Transistor_BJT" überein
+    ; warning
+    @(7100 mils, 3900 mils): Symbol Q4 [BC547]
+[lib_symbol_mismatch]: Symbol "GND" stimmt nicht mit Kopie in Bibliothek "power" überein
+    ; warning
+    @(7200 mils, 4200 mils): Symbol #PWR04 [GND]
+
+***** Schaltplan /Display Sheet/
+
+ ** ERC-Meldungen: 11  Fehler 0  Warnungen 11
