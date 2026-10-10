@@ -4191,16 +4191,16 @@
 		(uuid "9e9ddc69-56a5-4ad3-94fe-eb16b24ea78e")
 	)
 	(junction
-		(at 187.96 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ee9fd9f-b5d8-4434-adbe-4069ebacb06a")
-	)
-	(junction
 		(at 91.44 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b06bd4a2-5141-4b6b-951c-89700537ee91")
+	)
+	(junction
+		(at 187.96 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b111d335-ad08-48da-b654-9a36163da620")
 	)
 	(junction
 		(at 142.24 172.72)
@@ -4890,7 +4890,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 120.65) (xy 205.74 120.65)
+			(xy 198.12 125.73) (xy 205.74 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4947,6 +4947,16 @@
 			(type default)
 		)
 		(uuid "3e6c5c8a-682a-4593-badc-f871b46a89e3")
+	)
+	(wire
+		(pts
+			(xy 205.74 115.57) (xy 205.74 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e82a01e-ac9d-4a13-96ed-c8fa9f819ca8")
 	)
 	(wire
 		(pts
@@ -5350,7 +5360,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 115.57) (xy 187.96 120.65)
+			(xy 187.96 115.57) (xy 187.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5480,7 +5490,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 130.81) (xy 187.96 129.54)
+			(xy 187.96 135.89) (xy 187.96 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6170,16 +6180,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 115.57) (xy 205.74 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5440f12-ba78-4336-a8a5-7ab4a03381d3")
-	)
-	(wire
-		(pts
 			(xy 40.64 175.26) (xy 40.64 172.72)
 		)
 		(stroke
@@ -6490,7 +6490,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 120.65) (xy 187.96 121.92)
+			(xy 187.96 125.73) (xy 187.96 127)
 		)
 		(stroke
 			(width 0)
@@ -6570,7 +6570,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 120.65) (xy 190.5 120.65)
+			(xy 187.96 125.73) (xy 190.5 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7868,7 +7868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 83.82 137.668 90)
 			(effects
 				(font
@@ -8249,7 +8249,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 120.65 90)
+		(at 194.31 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8258,7 +8258,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ac9ac57-eb27-40ea-8fcf-ddee162f9682")
 		(property "Reference" "C7"
-			(at 194.31 113.03 90)
+			(at 194.31 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8266,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 194.31 115.57 90)
+			(at 194.31 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8274,7 +8274,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 198.12 119.6848 0)
+			(at 198.12 124.7648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8283,7 +8283,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 120.65 0)
+			(at 194.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,7 +8292,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 194.31 120.65 0)
+			(at 194.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +8888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 50.292 154.94 90)
 			(effects
 				(font
@@ -9424,7 +9424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 194.31 117.348 90)
 			(effects
 				(font
@@ -10563,7 +10563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 48.26 152.908 90)
 			(effects
 				(font
@@ -10607,7 +10607,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 187.96 125.73 0)
+		(at 187.96 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10616,7 +10616,7 @@
 		(fields_autoplaced yes)
 		(uuid "87211898-58bb-4ec2-bcbe-86735d2e5b1e")
 		(property "Reference" "R1"
-			(at 190.5 124.4599 0)
+			(at 190.5 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10625,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 190.5 126.9999 0)
+			(at 190.5 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,8 +10633,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 186.182 125.73 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 186.182 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,7 +10643,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 125.73 0)
+			(at 187.96 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,7 +10652,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 125.73 0)
+			(at 187.96 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,7 +11896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 64.77 137.668 90)
 			(effects
 				(font
@@ -12034,7 +12034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.53 147.828 90)
 			(effects
 				(font
@@ -12673,7 +12673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 254 57.658 90)
 			(effects
 				(font
@@ -12914,7 +12914,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 130.81 0)
+		(at 187.96 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12923,7 +12923,7 @@
 		(fields_autoplaced yes)
 		(uuid "e72a0d9c-d2d7-4346-b891-27c40518d7f4")
 		(property "Reference" "#PWR08"
-			(at 187.96 137.16 0)
+			(at 187.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12932,7 +12932,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 135.89 0)
+			(at 187.96 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12941,7 +12941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 130.81 0)
+			(at 187.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12950,7 +12950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 130.81 0)
+			(at 187.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12959,7 +12959,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 130.81 0)
+			(at 187.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13281,7 +13281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 254 60.198 90)
 			(effects
 				(font
