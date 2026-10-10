@@ -4238,6 +4238,10 @@
 		(at 33.02 143.51)
 		(uuid "ce580495-3bec-4c90-b637-62c16c79cde6")
 	)
+	(no_connect
+		(at 232.41 113.03)
+		(uuid "e0025e8b-6b96-491d-b2b8-91fa0c2de5d9")
+	)
 	(wire
 		(pts
 			(xy 198.12 58.42) (xy 222.25 58.42)
@@ -4550,6 +4554,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 147.32) (xy 189.23 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207654cd-90f0-4a3e-8545-dfbd6ffcb799")
+	)
+	(wire
+		(pts
 			(xy 224.79 35.56) (xy 224.79 36.83)
 		)
 		(stroke
@@ -4607,6 +4621,16 @@
 			(type default)
 		)
 		(uuid "2526df33-3e0c-4402-9261-3e29b8d03a2c")
+	)
+	(wire
+		(pts
+			(xy 191.77 151.13) (xy 191.77 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256131a9-7c2f-4857-9063-f63784f2a7a2")
 	)
 	(wire
 		(pts
@@ -4857,6 +4881,16 @@
 			(type default)
 		)
 		(uuid "42bdcb19-e853-49cf-86cc-625049592194")
+	)
+	(wire
+		(pts
+			(xy 31.75 143.51) (xy 31.75 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f47438-35bd-46f5-a31a-f300ab5e6b84")
 	)
 	(wire
 		(pts
@@ -5137,6 +5171,16 @@
 			(type default)
 		)
 		(uuid "5ae5a4ac-7e04-4bb5-852b-6426bcc8e681")
+	)
+	(wire
+		(pts
+			(xy 189.23 146.05) (xy 191.77 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bda8144-d0d1-4203-987d-d4c0e6ad1efe")
 	)
 	(wire
 		(pts
@@ -5680,6 +5724,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 157.48) (xy 208.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927c53ca-3f33-4e1e-9138-a196af6ff769")
+	)
+	(wire
+		(pts
 			(xy 203.2 107.95) (xy 205.74 107.95)
 		)
 		(stroke
@@ -5850,6 +5904,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 143.51) (xy 30.48 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5559b5b-ec04-4541-987d-df2be66d4870")
+	)
+	(wire
+		(pts
 			(xy 247.65 63.5) (xy 250.19 63.5)
 		)
 		(stroke
@@ -5857,6 +5921,16 @@
 			(type default)
 		)
 		(uuid "a6ff2a2b-ffa7-4a05-b25d-ba8976a28d7c")
+	)
+	(wire
+		(pts
+			(xy 208.28 157.48) (xy 208.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74aa847-4ec8-42b7-8a26-d055609af6b5")
 	)
 	(wire
 		(pts
@@ -6397,6 +6471,16 @@
 			(type default)
 		)
 		(uuid "e7028301-6584-49dd-a22b-1e43525809ad")
+	)
+	(wire
+		(pts
+			(xy 208.28 148.59) (xy 207.01 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8545f46-3a1d-4103-a0ae-14958fd56167")
 	)
 	(wire
 		(pts
@@ -7570,7 +7654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 262.5852 66.04 0)
 			(effects
 				(font
@@ -7688,7 +7772,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0fcdb3d4-97c0-4256-8eef-ac66e70506f1")
 		(property "Reference" "C17"
 			(at 251.46 34.6709 0)
@@ -7822,6 +7905,138 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 31.75 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16a6a311-6681-45d2-b4be-fb1f22e87152")
+		(property "Reference" "#PWR029"
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6254a04-a43c-4138-9118-bdc9072dffd2")
+		)
+		(instances
+			(project ""
+				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a3602ef-612d-4a8d-b225-dd3f2363f850")
+		(property "Reference" "#PWR014"
+			(at 189.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbb67363-1528-4af4-8cd9-73fa624cee1f")
+		)
+		(instances
+			(project ""
+				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 209.55 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7912,7 +8127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 198.12 119.6848 0)
 			(effects
 				(font
@@ -8046,7 +8261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 43.18 145.0848 0)
 			(effects
 				(font
@@ -8189,7 +8404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 251.1552 71.12 0)
 			(effects
 				(font
@@ -8391,7 +8606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 70.8152 177.8 0)
 			(effects
 				(font
@@ -9137,7 +9352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 59.3852 158.75 0)
 			(effects
 				(font
@@ -10416,7 +10631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 68.58 127.3048 0)
 			(effects
 				(font
@@ -10552,7 +10767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 251.1552 86.36 0)
 			(effects
 				(font
@@ -10620,7 +10835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 25.4 140.97 0)
 			(effects
 				(font
@@ -10977,7 +11192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 70.8152 189.23 0)
 			(effects
 				(font
@@ -11114,7 +11329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 237.49 115.57 0)
 			(effects
 				(font
@@ -11187,7 +11402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 149.5552 156.21 0)
 			(effects
 				(font
@@ -11296,6 +11511,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 199.39 148.59 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb0eede-79d1-42b4-b413-50db9701245f")
+		(property "Reference" "U9"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 199.39 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 199.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 199.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 199.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "02a736c6-a250-462d-9c15-e00ab54836c3")
+		)
+		(pin "6"
+			(uuid "77fe3a1a-aed9-4777-a481-e63334106c95")
+		)
+		(pin "5"
+			(uuid "e7db0906-9543-4230-80e1-bd02797929bd")
+		)
+		(pin "8"
+			(uuid "8eb99a06-8003-4ac4-ab96-e948f2c0bd6c")
+		)
+		(pin "3"
+			(uuid "55a92678-8bc0-4c41-b59c-25959f3218c1")
+		)
+		(pin "2"
+			(uuid "77412bdf-5190-4ef0-9ead-25c059f5ea40")
+		)
+		(pin "1"
+			(uuid "22341b81-f261-41f4-8bc5-c15d2b9ba3b3")
+		)
+		(pin "7"
+			(uuid "866fbb6a-d43c-47de-9370-c4b1d3b65540")
+		)
+		(instances
+			(project "vocoder-pico-hardware"
+				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
+					(reference "U9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 135.89 90)
 		(unit 1)
@@ -11391,7 +11692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 272.7452 83.82 0)
 			(effects
 				(font
@@ -11665,7 +11966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 225.7552 35.56 0)
 			(effects
 				(font
@@ -11735,7 +12036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 256.2352 39.37 0)
 			(effects
 				(font
@@ -12368,7 +12669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 218.1352 50.8 0)
 			(effects
 				(font
@@ -12438,7 +12739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 270.2052 63.5 0)
 			(effects
 				(font
@@ -12574,7 +12875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 93.6752 143.51 0)
 			(effects
 				(font
