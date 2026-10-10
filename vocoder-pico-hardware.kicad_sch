@@ -5,7 +5,7 @@
 	(uuid "68f2073a-7618-4fa5-a11d-b71bb4f75794")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:MCP6002-xMC"
+		(symbol "Amplifier_Operational:MCP6002-xP"
 			(pin_names
 				(offset 0.127)
 			)
@@ -21,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP6002-xMC"
+			(property "Value" "MCP6002-xP"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -30,7 +30,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1MHz, Low-Power Op Amp, DFN-8"
+			(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DFN*1EP*3x2mm*P0.5mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP6002-xMC_1_1"
+			(symbol "MCP6002-xP_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -151,7 +151,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xMC_2_1"
+			(symbol "MCP6002-xP_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -219,7 +219,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xMC_3_1"
+			(symbol "MCP6002-xP_3_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -249,25 +249,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(hide yes)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4231,6 +4212,10 @@
 		(uuid "a5558a3d-876a-4233-943b-fff8ec2b996a")
 	)
 	(no_connect
+		(at 33.02 143.51)
+		(uuid "ce580495-3bec-4c90-b637-62c16c79cde6")
+	)
+	(no_connect
 		(at 232.41 113.03)
 		(uuid "e0025e8b-6b96-491d-b2b8-91fa0c2de5d9")
 	)
@@ -4846,16 +4831,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 143.51) (xy 31.75 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "412b072a-6a42-42d9-8dad-d7a17c6b1b18")
-	)
-	(wire
-		(pts
 			(xy 209.55 52.07) (xy 209.55 53.34)
 		)
 		(stroke
@@ -4883,6 +4858,16 @@
 			(type default)
 		)
 		(uuid "42bdcb19-e853-49cf-86cc-625049592194")
+	)
+	(wire
+		(pts
+			(xy 31.75 143.51) (xy 31.75 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f47438-35bd-46f5-a31a-f300ab5e6b84")
 	)
 	(wire
 		(pts
@@ -6236,6 +6221,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 143.51) (xy 31.75 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b7364c-8e93-46c5-8eed-5e7ff434bbaa")
+	)
+	(wire
+		(pts
 			(xy 133.35 185.42) (xy 133.35 186.69)
 		)
 		(stroke
@@ -6453,16 +6448,6 @@
 			(type default)
 		)
 		(uuid "e7028301-6584-49dd-a22b-1e43525809ad")
-	)
-	(wire
-		(pts
-			(xy 31.75 143.51) (xy 31.75 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e78d4cb6-7bda-4ef3-879e-26770a131b06")
 	)
 	(wire
 		(pts
@@ -8946,7 +8931,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xMC")
+		(lib_id "Amplifier_Operational:MCP6002-xP")
 		(at 66.04 148.59 0)
 		(mirror x)
 		(unit 1)
@@ -8963,12 +8948,13 @@
 				)
 			)
 		)
-		(property "Value" "Amplifier_Operational:MCP6002-xP"
-			(at 66.04 156.21 0)
+		(property "Value" "MCP6002-xP"
+			(at 66.04 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
@@ -8989,7 +8975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, DFN-8"
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
 			(at 66.04 148.59 0)
 			(effects
 				(font
@@ -8997,9 +8983,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "9"
-			(uuid "45d8fe54-152f-44f4-aea5-6e0c5e26794b")
 		)
 		(pin "7"
 			(uuid "3a0f5480-fe04-40ac-a952-35b4df2b2bba")
@@ -9965,7 +9948,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xMC")
+		(lib_id "Amplifier_Operational:MCP6002-xP")
 		(at 115.57 148.59 0)
 		(mirror x)
 		(unit 2)
@@ -9982,12 +9965,13 @@
 				)
 			)
 		)
-		(property "Value" "Amplifier_Operational:MCP6002-xP"
-			(at 115.57 156.21 0)
+		(property "Value" "MCP6002-xP"
+			(at 115.57 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
@@ -10008,7 +9992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, DFN-8"
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
 			(at 115.57 148.59 0)
 			(effects
 				(font
@@ -10016,9 +10000,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "9"
-			(uuid "45d8fe54-152f-44f4-aea5-6e0c5e26794c")
 		)
 		(pin "7"
 			(uuid "3a0f5480-fe04-40ac-a952-35b4df2b2bbb")
@@ -11556,7 +11537,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "02a736c6-a250-462d-9c15-e00ab54836c2")
+			(uuid "02a736c6-a250-462d-9c15-e00ab54836c3")
 		)
 		(pin "6"
 			(uuid "77fe3a1a-aed9-4777-a481-e63334106c95")
@@ -11565,16 +11546,16 @@
 			(uuid "e7db0906-9543-4230-80e1-bd02797929bd")
 		)
 		(pin "8"
-			(uuid "8eb99a06-8003-4ac4-ab96-e948f2c0bd6b")
+			(uuid "8eb99a06-8003-4ac4-ab96-e948f2c0bd6c")
 		)
 		(pin "3"
-			(uuid "55a92678-8bc0-4c41-b59c-25959f3218c0")
+			(uuid "55a92678-8bc0-4c41-b59c-25959f3218c1")
 		)
 		(pin "2"
-			(uuid "77412bdf-5190-4ef0-9ead-25c059f5ea3f")
+			(uuid "77412bdf-5190-4ef0-9ead-25c059f5ea40")
 		)
 		(pin "1"
-			(uuid "22341b81-f261-41f4-8bc5-c15d2b9ba3b2")
+			(uuid "22341b81-f261-41f4-8bc5-c15d2b9ba3b3")
 		)
 		(pin "7"
 			(uuid "866fbb6a-d43c-47de-9370-c4b1d3b65540")
@@ -12071,7 +12052,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xMC")
+		(lib_id "Amplifier_Operational:MCP6002-xP")
 		(at 152.4 152.4 0)
 		(mirror y)
 		(unit 3)
@@ -12088,12 +12069,13 @@
 				)
 			)
 		)
-		(property "Value" "Amplifier_Operational:MCP6002-xP"
-			(at 152.4 144.78 0)
+		(property "Value" "MCP6002-xP"
+			(at 152.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
@@ -12114,7 +12096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, DFN-8"
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
 			(at 152.4 152.4 0)
 			(effects
 				(font
@@ -12122,9 +12104,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "9"
-			(uuid "52c12bfc-af1e-4f76-85e2-13e764fd8fc5")
 		)
 		(pin "7"
 			(uuid "3a0f5480-fe04-40ac-a952-35b4df2b2bbc")
