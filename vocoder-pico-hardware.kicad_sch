@@ -4227,16 +4227,8 @@
 		(uuid "800c9848-a9b4-434c-b767-97c28df85539")
 	)
 	(no_connect
-		(at 30.48 143.51)
-		(uuid "9d6f0fe5-aee3-4660-a11e-d41b919d4637")
-	)
-	(no_connect
 		(at 96.52 39.37)
 		(uuid "a5558a3d-876a-4233-943b-fff8ec2b996a")
-	)
-	(no_connect
-		(at 33.02 143.51)
-		(uuid "ce580495-3bec-4c90-b637-62c16c79cde6")
 	)
 	(no_connect
 		(at 232.41 113.03)
@@ -4854,6 +4846,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 143.51) (xy 31.75 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412b072a-6a42-42d9-8dad-d7a17c6b1b18")
+	)
+	(wire
+		(pts
 			(xy 209.55 52.07) (xy 209.55 53.34)
 		)
 		(stroke
@@ -4881,16 +4883,6 @@
 			(type default)
 		)
 		(uuid "42bdcb19-e853-49cf-86cc-625049592194")
-	)
-	(wire
-		(pts
-			(xy 31.75 143.51) (xy 31.75 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42f47438-35bd-46f5-a31a-f300ab5e6b84")
 	)
 	(wire
 		(pts
@@ -5904,16 +5896,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 143.51) (xy 30.48 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5559b5b-ec04-4541-987d-df2be66d4870")
-	)
-	(wire
-		(pts
 			(xy 247.65 63.5) (xy 250.19 63.5)
 		)
 		(stroke
@@ -6471,6 +6453,16 @@
 			(type default)
 		)
 		(uuid "e7028301-6584-49dd-a22b-1e43525809ad")
+	)
+	(wire
+		(pts
+			(xy 31.75 143.51) (xy 31.75 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78d4cb6-7bda-4ef3-879e-26770a131b06")
 	)
 	(wire
 		(pts
@@ -8971,7 +8963,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002-xP"
+		(property "Value" "Amplifier_Operational:MCP6002-xP"
 			(at 66.04 156.21 0)
 			(effects
 				(font
@@ -9990,7 +9982,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002-xP"
+		(property "Value" "Amplifier_Operational:MCP6002-xP"
 			(at 115.57 156.21 0)
 			(effects
 				(font
@@ -11520,7 +11512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acb0eede-79d1-42b4-b413-50db9701245f")
-		(property "Reference" "U9"
+		(property "Reference" "U1"
 			(at 199.39 138.43 0)
 			(effects
 				(font
@@ -11564,7 +11556,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "02a736c6-a250-462d-9c15-e00ab54836c3")
+			(uuid "02a736c6-a250-462d-9c15-e00ab54836c2")
 		)
 		(pin "6"
 			(uuid "77fe3a1a-aed9-4777-a481-e63334106c95")
@@ -11573,16 +11565,16 @@
 			(uuid "e7db0906-9543-4230-80e1-bd02797929bd")
 		)
 		(pin "8"
-			(uuid "8eb99a06-8003-4ac4-ab96-e948f2c0bd6c")
+			(uuid "8eb99a06-8003-4ac4-ab96-e948f2c0bd6b")
 		)
 		(pin "3"
-			(uuid "55a92678-8bc0-4c41-b59c-25959f3218c1")
+			(uuid "55a92678-8bc0-4c41-b59c-25959f3218c0")
 		)
 		(pin "2"
-			(uuid "77412bdf-5190-4ef0-9ead-25c059f5ea40")
+			(uuid "77412bdf-5190-4ef0-9ead-25c059f5ea3f")
 		)
 		(pin "1"
-			(uuid "22341b81-f261-41f4-8bc5-c15d2b9ba3b3")
+			(uuid "22341b81-f261-41f4-8bc5-c15d2b9ba3b2")
 		)
 		(pin "7"
 			(uuid "866fbb6a-d43c-47de-9370-c4b1d3b65540")
@@ -11590,7 +11582,7 @@
 		(instances
 			(project "vocoder-pico-hardware"
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "U9")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -12096,7 +12088,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002-xP"
+		(property "Value" "Amplifier_Operational:MCP6002-xP"
 			(at 152.4 144.78 0)
 			(effects
 				(font
