@@ -11093,7 +11093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96b33940-2209-407e-9c3a-0976e1f2afa0")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 24.765 132.08 0)
 			(effects
 				(font
@@ -11148,7 +11148,7 @@
 		(instances
 			(project "vocoder-pico-hardware"
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11585,7 +11585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7385591-f1cd-4835-a8d8-f37dc639cd5d")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 242.57 113.6649 0)
 			(effects
 				(font
@@ -11642,7 +11642,7 @@
 		(instances
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
