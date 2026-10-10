@@ -976,7 +976,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack3_SwitchTR"
+		(symbol "Connector_Audio:AudioJack2_SwitchT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -988,7 +988,7 @@
 					)
 				)
 			)
-			(property "Value" "AudioJack3_SwitchTR"
+			(property "Value" "AudioJack2_SwitchT"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -1014,7 +1014,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1023,7 +1023,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1041,10 +1041,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "AudioJack3_SwitchTR_0_1"
+			(symbol "AudioJack2_SwitchT_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end -6.35 -7.62)
+					(start -2.54 0)
+					(end -3.81 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1055,7 +1055,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1067,31 +1067,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -0.254) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -5.334) (xy 2.032 -5.842)
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -1103,7 +1079,7 @@
 				)
 				(rectangle
 					(start 2.54 3.81)
-					(end -5.08 -10.16)
+					(end -2.54 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1114,7 +1090,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1126,19 +1102,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -1149,7 +1113,7 @@
 					)
 				)
 			)
-			(symbol "AudioJack3_SwitchTR_1_1"
+			(symbol "AudioJack2_SwitchT_1_1"
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
@@ -1178,42 +1142,6 @@
 							)
 						)
 					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "RN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "T"
 						(effects
 							(font
@@ -1223,7 +1151,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -4055,12 +3983,6 @@
 		(uuid "3b2fec45-553f-4686-8a62-63a5186d9967")
 	)
 	(junction
-		(at 189.23 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f889c8a-208e-436e-8bb8-bf82c48673eb")
-	)
-	(junction
 		(at 247.65 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4101,12 +4023,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b55739c-f25f-4419-9446-7b7daf91cdf6")
-	)
-	(junction
-		(at 207.01 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cb0b993-8f42-4847-86a2-ba08664f143e")
 	)
 	(junction
 		(at 69.85 180.34)
@@ -4163,12 +4079,6 @@
 		(uuid "828c97d5-36d4-4baa-a4f2-3b4816112385")
 	)
 	(junction
-		(at 207.01 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87fce9ed-13a9-4867-aef3-85fb132ee8e3")
-	)
-	(junction
 		(at 247.65 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4197,12 +4107,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3b48200-5349-46f6-bbe1-6ff41724763f")
-	)
-	(junction
-		(at 189.23 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c67e7ea2-a049-4c43-b781-26603ee71469")
 	)
 	(junction
 		(at 118.11 185.42)
@@ -4319,16 +4223,12 @@
 		(uuid "69e754ca-1a2a-43fe-9562-91f307ac2541")
 	)
 	(no_connect
-		(at 228.6 118.11)
-		(uuid "7ae0f1a0-05be-43a6-80ef-6092fdaec86e")
-	)
-	(no_connect
 		(at 96.52 36.83)
 		(uuid "800c9848-a9b4-434c-b767-97c28df85539")
 	)
 	(no_connect
-		(at 228.6 113.03)
-		(uuid "8d9b6de2-6bb8-44dd-b926-35f48b78eb77")
+		(at 30.48 143.51)
+		(uuid "9d6f0fe5-aee3-4660-a11e-d41b919d4637")
 	)
 	(no_connect
 		(at 96.52 39.37)
@@ -4337,10 +4237,6 @@
 	(no_connect
 		(at 33.02 143.51)
 		(uuid "ce580495-3bec-4c90-b637-62c16c79cde6")
-	)
-	(no_connect
-		(at 33.02 140.97)
-		(uuid "e945257e-321a-417c-a384-7870255995a0")
 	)
 	(wire
 		(pts
@@ -4351,16 +4247,6 @@
 			(type default)
 		)
 		(uuid "00bb5947-1dd0-40ff-b65f-583642bba3d7")
-	)
-	(wire
-		(pts
-			(xy 189.23 143.51) (xy 189.23 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c3cbfd-dede-444e-b6a9-7b7b4ce47024")
 	)
 	(wire
 		(pts
@@ -4521,16 +4407,6 @@
 			(type default)
 		)
 		(uuid "141d1b2c-7ea2-4ac7-8a24-c5e5db3db832")
-	)
-	(wire
-		(pts
-			(xy 207.01 149.86) (xy 196.85 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "149a8a5b-834f-4dcf-a236-0c4f75315423")
 	)
 	(wire
 		(pts
@@ -4714,16 +4590,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 138.43) (xy 43.18 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "235c4c22-dbba-4a92-991e-7a56ae7c49c6")
-	)
-	(wire
-		(pts
 			(xy 237.49 43.18) (xy 237.49 44.45)
 		)
 		(stroke
@@ -4751,16 +4617,6 @@
 			(type default)
 		)
 		(uuid "25641153-58ce-4d5b-9c85-cca5bd159a61")
-	)
-	(wire
-		(pts
-			(xy 224.79 123.19) (xy 224.79 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26598867-cead-4a8b-807f-6db617463624")
 	)
 	(wire
 		(pts
@@ -4924,6 +4780,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 115.57) (xy 232.41 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390aafad-c7fb-4745-977c-b7f12a6b8ee9")
+	)
+	(wire
+		(pts
 			(xy 74.93 187.96) (xy 74.93 189.23)
 		)
 		(stroke
@@ -4931,6 +4797,26 @@
 			(type default)
 		)
 		(uuid "3b12c7de-13e8-4fbc-847c-c368d49ddac1")
+	)
+	(wire
+		(pts
+			(xy 231.14 118.11) (xy 232.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6c5c8a-682a-4593-badc-f871b46a89e3")
+	)
+	(wire
+		(pts
+			(xy 34.29 140.97) (xy 34.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd4dcc9-eabf-4c87-acc5-6ebc660819cf")
 	)
 	(wire
 		(pts
@@ -4961,16 +4847,6 @@
 			(type default)
 		)
 		(uuid "41e3bc09-fedc-42aa-948f-5c61ee0dae13")
-	)
-	(wire
-		(pts
-			(xy 176.53 138.43) (xy 189.23 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "425a96b5-3d77-46a7-b985-52fafd973d28")
 	)
 	(wire
 		(pts
@@ -5031,16 +4907,6 @@
 			(type default)
 		)
 		(uuid "45c5d232-c7d9-4044-a77e-bf281cc433d2")
-	)
-	(wire
-		(pts
-			(xy 220.98 115.57) (xy 228.6 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45f1d050-8b31-4cf6-812e-55d75f45e321")
 	)
 	(wire
 		(pts
@@ -5121,16 +4987,6 @@
 			(type default)
 		)
 		(uuid "4cb7b547-2ed6-4ec2-97a8-ec111e711060")
-	)
-	(wire
-		(pts
-			(xy 189.23 154.94) (xy 190.5 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da495cb-fddf-4e46-acb7-8974b566f0a0")
 	)
 	(wire
 		(pts
@@ -5261,16 +5117,6 @@
 			(type default)
 		)
 		(uuid "599a3acb-5272-4abc-ba58-300b8e612ec7")
-	)
-	(wire
-		(pts
-			(xy 207.01 140.97) (xy 207.01 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59ddaca1-5523-424a-93c2-37ffc155de77")
 	)
 	(wire
 		(pts
@@ -5424,6 +5270,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 146.05) (xy 35.56 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d11272a-8853-45a3-8caa-248c9438c8f9")
+	)
+	(wire
+		(pts
 			(xy 222.25 63.5) (xy 215.9 63.5)
 		)
 		(stroke
@@ -5431,16 +5287,6 @@
 			(type default)
 		)
 		(uuid "6e4d1a93-cc95-4370-8988-8e87f01f2a56")
-	)
-	(wire
-		(pts
-			(xy 189.23 149.86) (xy 189.23 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7027fbbe-4ce0-4b05-ab1d-61580c3af580")
 	)
 	(wire
 		(pts
@@ -5461,16 +5307,6 @@
 			(type default)
 		)
 		(uuid "725c91d6-a024-43b5-a53b-1cbde0ed30b1")
-	)
-	(wire
-		(pts
-			(xy 220.98 120.65) (xy 228.6 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ece0fb-28fa-4e43-bc4a-455c7d2bd30d")
 	)
 	(wire
 		(pts
@@ -5634,6 +5470,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 138.43) (xy 43.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef68c8f-f008-494b-9a31-bb0c4e98192a")
+	)
+	(wire
+		(pts
 			(xy 261.62 66.04) (xy 261.62 69.85)
 		)
 		(stroke
@@ -5651,16 +5497,6 @@
 			(type default)
 		)
 		(uuid "81fe48f4-a0eb-466f-a7e6-f52220e79b20")
-	)
-	(wire
-		(pts
-			(xy 33.02 146.05) (xy 35.56 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83a36ca7-ea32-499c-9ea3-d30a98ffb758")
 	)
 	(wire
 		(pts
@@ -5694,16 +5530,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 148.59) (xy 33.02 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8676dea5-c8a1-403d-9432-1dd247e94eae")
-	)
-	(wire
-		(pts
 			(xy 53.34 146.05) (xy 57.15 146.05)
 		)
 		(stroke
@@ -5711,16 +5537,6 @@
 			(type default)
 		)
 		(uuid "86a0f74e-8bcc-4f06-9775-b5f4ed246ce6")
-	)
-	(wire
-		(pts
-			(xy 224.79 123.19) (xy 228.6 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877ce8da-c785-4616-aa23-94996087011a")
 	)
 	(wire
 		(pts
@@ -5791,6 +5607,16 @@
 			(type default)
 		)
 		(uuid "8a2e7446-3a33-42ac-b72e-05b9d283edfd")
+	)
+	(wire
+		(pts
+			(xy 231.14 120.65) (xy 231.14 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b74681b-86df-4c6f-8c62-a39c37d169cf")
 	)
 	(wire
 		(pts
@@ -5881,16 +5707,6 @@
 			(type default)
 		)
 		(uuid "965a9405-a41e-4863-b8a5-607ebdec2234")
-	)
-	(wire
-		(pts
-			(xy 217.17 140.97) (xy 220.98 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "965f77a9-2cc9-4b22-8272-9b4a93c82231")
 	)
 	(wire
 		(pts
@@ -6154,16 +5970,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 149.86) (xy 207.01 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b35bc4b6-bc23-4fa4-a5d2-80ea94cb7bb5")
-	)
-	(wire
-		(pts
 			(xy 205.74 115.57) (xy 205.74 120.65)
 		)
 		(stroke
@@ -6201,6 +6007,16 @@
 			(type default)
 		)
 		(uuid "b6f63435-fc50-4984-8855-45606c21ef86")
+	)
+	(wire
+		(pts
+			(xy 30.48 140.97) (xy 34.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83486cf-ac9f-4ee0-b887-9523be0761ff")
 	)
 	(wire
 		(pts
@@ -6264,16 +6080,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 154.94) (xy 207.01 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c02ad6e3-8ad5-4142-a350-dd687cfdd402")
-	)
-	(wire
-		(pts
 			(xy 39.37 189.23) (xy 40.64 189.23)
 		)
 		(stroke
@@ -6321,16 +6127,6 @@
 			(type default)
 		)
 		(uuid "c6f5833f-65a4-4ae1-b017-36d370ca9fc4")
-	)
-	(wire
-		(pts
-			(xy 204.47 140.97) (xy 207.01 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7286674-e7a4-40a5-98fc-486c268e72b2")
 	)
 	(wire
 		(pts
@@ -6634,16 +6430,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 140.97) (xy 209.55 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee3f628-65fa-46b6-9ea8-09e5478f3e07")
-	)
-	(wire
-		(pts
 			(xy 217.17 107.95) (xy 220.98 107.95)
 		)
 		(stroke
@@ -6671,16 +6457,6 @@
 			(type default)
 		)
 		(uuid "f0ef299f-5aec-47f7-bc15-dce453d959a0")
-	)
-	(wire
-		(pts
-			(xy 220.98 140.97) (xy 220.98 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f25c393a-ad2e-4b38-ae2b-1b626f284b0c")
 	)
 	(wire
 		(pts
@@ -6841,26 +6617,6 @@
 			(type default)
 		)
 		(uuid "fef18fb9-20d4-4f13-9311-6f8b6925d81f")
-	)
-	(wire
-		(pts
-			(xy 189.23 162.56) (xy 189.23 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff18e2c7-491f-45c2-a06a-c6efa6b48879")
-	)
-	(label "J2_RN"
-		(at 228.6 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "177eb23f-e307-45e5-84c8-f99f3a737cc7")
 	)
 	(global_label "GP8_SEG_G"
 		(shape output)
@@ -7143,28 +6899,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OutR"
-		(shape input)
-		(at 176.53 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5f91d377-d36e-4f62-b70a-67025707c18f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.0696 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8221,82 +7955,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 27.94 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29b1158c-1bd1-4e38-99c5-b033cf0b840f")
-		(property "Reference" "J3"
-			(at 26.035 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack3_SwitchTR"
-			(at 26.035 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
-			(at 27.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 27.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "b33a0830-6f52-46f4-8070-0e7aa19250b3")
-		)
-		(pin "S"
-			(uuid "40e375c5-46ed-40ef-870e-4e1e053cd3f0")
-		)
-		(pin "T"
-			(uuid "526c54ab-006a-47a2-9373-dc58be99c6c3")
-		)
-		(pin "RN"
-			(uuid "72575ed3-571e-44c8-b941-7c46f59b7d3e")
-		)
-		(pin "R"
-			(uuid "917cf9f2-349d-4982-bf4c-ea2e631e72b9")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 58.42 44.45 0)
 		(unit 1)
@@ -8574,74 +8232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 213.36 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fd6c953-a16d-4975-b638-0f06ea8514c9")
-		(property "Reference" "R6"
-			(at 213.36 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 213.36 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 213.36 142.748 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 213.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "65917b88-75cb-41fb-b954-65d69d2bc187")
-		)
-		(pin "1"
-			(uuid "a5dff95d-aeb2-4d29-9f61-cbff457f93d0")
-		)
-		(instances
-			(project ""
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 215.9 71.12 0)
 		(unit 1)
@@ -8702,72 +8292,6 @@
 			(project "vocoder-pico-hardware"
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 224.79 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4243acfc-1d78-41d2-9712-fb665292dad5")
-		(property "Reference" "#PWR014"
-			(at 224.79 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4869b136-fbff-4387-a16c-21eb6b7cc761")
-		)
-		(instances
-			(project ""
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9215,92 +8739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
-		(at 196.85 140.97 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "595b3cec-fd35-46fb-afd4-3d64d3abeffa")
-		(property "Reference" "U1"
-			(at 196.85 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL072"
-			(at 196.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 196.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 196.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 196.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "02a736c6-a250-462d-9c15-e00ab54836c1")
-		)
-		(pin "6"
-			(uuid "91a2615d-5423-48c9-b4f4-7c576d784961")
-		)
-		(pin "5"
-			(uuid "0af02653-0724-4fb7-b36a-f80e34d72ffa")
-		)
-		(pin "8"
-			(uuid "8eb99a06-8003-4ac4-ab96-e948f2c0bd6a")
-		)
-		(pin "3"
-			(uuid "55a92678-8bc0-4c41-b59c-25959f3218bf")
-		)
-		(pin "2"
-			(uuid "77412bdf-5190-4ef0-9ead-25c059f5ea3e")
-		)
-		(pin "1"
-			(uuid "22341b81-f261-41f4-8bc5-c15d2b9ba3b1")
-		)
-		(pin "7"
-			(uuid "4cae7f73-d009-4d57-878b-3ced750be609")
-		)
-		(instances
-			(project ""
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:MCP6002-xMC")
 		(at 66.04 148.59 0)
 		(mirror x)
@@ -9318,7 +8756,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002-xMC"
+		(property "Value" "MCP6002-xP"
 			(at 66.04 156.21 0)
 			(effects
 				(font
@@ -9326,7 +8764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 66.04 148.59 0)
 			(effects
 				(font
@@ -9384,76 +8822,6 @@
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 189.23 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59bdd779-6328-4843-9f11-4547045ce1df")
-		(property "Reference" "R2"
-			(at 191.77 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 191.77 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 187.452 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9e91b94e-6a77-45cb-a9bd-a64a77b75a9f")
-		)
-		(pin "1"
-			(uuid "0369f6f8-d9b4-4148-8022-60765367b336")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10322,74 +9690,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 194.31 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72247fe2-09a7-4256-bc11-7568f04286c3")
-		(property "Reference" "C8"
-			(at 194.31 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100p"
-			(at 194.31 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 153.9748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 194.31 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d5aab5d-c00e-4099-92f6-69a4a427b299")
-		)
-		(pin "2"
-			(uuid "2e980abb-a792-4b41-97a3-72576e2fff5d")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 80.01 106.68 0)
 		(unit 1)
@@ -10475,7 +9775,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002-xMC"
+		(property "Value" "MCP6002-xP"
 			(at 115.57 156.21 0)
 			(effects
 				(font
@@ -10483,7 +9783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 115.57 148.59 0)
 			(effects
 				(font
@@ -10677,74 +9977,6 @@
 			(project "vocoder-pico-hardware"
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b89a40c-7c91-4837-a65a-021298d1847b")
-		(property "Reference" "R3"
-			(at 193.04 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6.8k"
-			(at 193.04 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 193.04 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aeee5a0d-a8ba-4444-b4f4-9c786a7032ef")
-		)
-		(pin "2"
-			(uuid "d74a16a3-1a02-46cc-9b01-20e4dbf6eb43")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10949,85 +10181,6 @@
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 233.68 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87b5d749-664a-4ea7-aae5-c42db0f5ae3b")
-		(property "Reference" "J2"
-			(at 241.3 116.2049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack3_SwitchTR"
-			(at 241.3 118.7449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
-			(at 233.68 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 233.68 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "e2102087-8500-4c4a-9893-69ab4c9e7593")
-		)
-		(pin "S"
-			(uuid "df06e968-3ce2-425d-80b0-9ad150cc8403")
-		)
-		(pin "T"
-			(uuid "583dedff-abe3-475b-a3c4-21d09244fe38")
-		)
-		(pin "RN"
-			(uuid "c93889b9-8c54-4cdd-b3f5-9efcd5e621ef")
-		)
-		(pin "R"
-			(uuid "32b30f3e-2074-4456-abb1-be02c210cc2d")
-		)
-		(instances
-			(project ""
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11436,6 +10589,77 @@
 			(project "vocoder-pico-hardware"
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 25.4 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96b33940-2209-407e-9c3a-0976e1f2afa0")
+		(property "Reference" "J4"
+			(at 24.765 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 24.765 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 25.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "52f6ac3f-14e0-4654-990b-78d407153fa2")
+		)
+		(pin "TN"
+			(uuid "fc410e3f-7d13-45f7-992d-ab2cca8f3e04")
+		)
+		(pin "S"
+			(uuid "300d67d0-010f-472b-a514-6e0da6bd7589")
+		)
+		(instances
+			(project "vocoder-pico-hardware"
+				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11857,6 +11081,79 @@
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 237.49 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7385591-f1cd-4835-a8d8-f37dc639cd5d")
+		(property "Reference" "J2"
+			(at 242.57 113.6649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 242.57 116.2049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 237.49 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "9aec2347-a02b-4aa9-94c4-1da75c194a20")
+		)
+		(pin "TN"
+			(uuid "5472995d-6d62-4027-ab86-b16f098b1842")
+		)
+		(pin "S"
+			(uuid "9b1e5670-b728-4758-aad8-458d29a918d0")
+		)
+		(instances
+			(project ""
+				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12411,72 +11708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 33.02 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7f5acde-e6c2-4e1c-b011-13809692ffe4")
-		(property "Reference" "#PWR029"
-			(at 33.02 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe088bbf-f37e-4537-925f-5646fd683974")
-		)
-		(instances
-			(project ""
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 255.27 35.56 0)
 		(unit 1)
@@ -12564,7 +11795,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002-xMC"
+		(property "Value" "MCP6002-xP"
 			(at 152.4 144.78 0)
 			(effects
 				(font
@@ -12572,7 +11803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 152.4 152.4 0)
 			(effects
 				(font
@@ -12700,72 +11931,6 @@
 			(project "vocoder-pico-hardware"
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf305219-12ce-4a9f-978e-292bc78402e4")
-		(property "Reference" "#PWR09"
-			(at 189.23 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec02d3dd-f693-4986-b3ce-142184f93946")
-		)
-		(instances
-			(project ""
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12979,6 +12144,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 231.14 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e14eb550-5e8f-4fe5-a23e-c0f7e74bbdfb")
+		(property "Reference" "#PWR09"
+			(at 231.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f58b65ad-6eb6-4495-b44f-2013139b21ba")
+		)
+		(instances
+			(project ""
+				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 180.34 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13067,6 +12298,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""

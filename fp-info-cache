@@ -1,4 +1,4 @@
-27143119336376000
+27144910909230113
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63069,6 +63069,13 @@ heatsink
 0
 0
 0
+INMP441_Module
+INMP441_Module_Socket
+INMP441 I2S MEMS microphone breakout (round, ~14 mm), 2x3 pins, 2.54 mm pitch, row spacing 10.16 mm - VERIFY row spacing and pin order on your module
+INMP441 microphone I2S module socket
+0
+6
+6
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
