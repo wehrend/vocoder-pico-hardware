@@ -4023,12 +4023,6 @@
 		(uuid "28eb281f-6722-47a2-87f1-debb14a74e89")
 	)
 	(junction
-		(at 261.62 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31880d03-035f-4699-a8be-618aa0d745d3")
-	)
-	(junction
 		(at 54.61 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4123,12 +4117,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bdcb92f-3fe7-4ec2-a726-7cb0cf1ebef0")
-	)
-	(junction
-		(at 261.62 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e4aac34-d6ba-45ad-aa25-0210a4c420b2")
 	)
 	(junction
 		(at 87.63 170.18)
@@ -4617,16 +4605,6 @@
 			(type default)
 		)
 		(uuid "1dfd48a8-6c8e-4072-8d52-487a0f2209ef")
-	)
-	(wire
-		(pts
-			(xy 261.62 58.42) (xy 276.86 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e9d6c17-5a1c-49dd-8a8b-f09820d55590")
 	)
 	(wire
 		(pts
@@ -5520,16 +5498,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 58.42) (xy 276.86 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75c20016-9538-4a6a-a262-995492e00c92")
-	)
-	(wire
-		(pts
 			(xy 78.74 128.27) (xy 78.74 135.89)
 		)
 		(stroke
@@ -6110,16 +6078,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 58.42) (xy 261.62 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab9b7bbb-b46f-4bf5-87ef-f20cc2b0f987")
-	)
-	(wire
-		(pts
 			(xy 142.24 77.47) (xy 154.94 77.47)
 		)
 		(stroke
@@ -6467,16 +6425,6 @@
 			(type default)
 		)
 		(uuid "daf6f03e-c0aa-483b-b149-5decd17cb81d")
-	)
-	(wire
-		(pts
-			(xy 276.86 59.69) (xy 278.13 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcc2c340-8576-48f5-8532-1cd339d45129")
 	)
 	(wire
 		(pts
@@ -7463,28 +7411,6 @@
 			)
 		)
 	)
-	(global_label "OutR"
-		(shape output)
-		(at 278.13 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fdf82bf0-42ba-48eb-8793-0ce3bfa1c4e5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.5904 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Diode:1N5817")
 		(at 62.23 172.72 180)
@@ -7768,76 +7694,6 @@
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "U1")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 261.62 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e157c63-ad6a-40d7-a72c-674093a8adc0")
-		(property "Reference" "C23"
-			(at 265.43 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2nf"
-			(at 265.43 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 262.5852 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 261.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "192bc5a8-9e43-4167-8edd-79d45491b421")
-		)
-		(pin "1"
-			(uuid "63357446-1a76-43ba-9015-7fd023bf831b")
-		)
-		(instances
-			(project ""
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "C23")
-					(unit 1)
 				)
 			)
 		)
@@ -13250,74 +13106,6 @@
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 254 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa91856a-9b66-47c5-b3a0-ddb3f41d757c")
-		(property "Reference" "R8"
-			(at 254 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470Ohm"
-			(at 254 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 254 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 254 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b05fdb7-b10c-446b-b5d6-2b5ade70b0fb")
-		)
-		(pin "1"
-			(uuid "315979ff-325d-4ce6-8e1e-aa7b68db1ac9")
-		)
-		(instances
-			(project "vocoder-pico-hardware"
-				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "R8")
 					(unit 1)
 				)
 			)
