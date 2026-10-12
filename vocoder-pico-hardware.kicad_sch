@@ -7620,7 +7620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "083cf31d-8ba6-4ebb-b69a-c6897f196166")
-		(property "Reference" "U1"
+		(property "Reference" "U8"
 			(at 88.9 184.1501 0)
 			(effects
 				(font
@@ -7692,7 +7692,7 @@
 		(instances
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "U1")
+					(reference "U8")
 					(unit 3)
 				)
 			)
@@ -9031,7 +9031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59611238-43f2-409a-bd44-ea488569ff58")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 66.04 158.75 0)
 			(effects
 				(font
@@ -9102,7 +9102,7 @@
 		(instances
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "U8")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10114,7 +10114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "779ed78e-98c8-4e9e-91b4-ad4637ccbf60")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 115.57 158.75 0)
 			(effects
 				(font
@@ -10185,7 +10185,7 @@
 		(instances
 			(project "vocoder-pico-hardware"
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "U8")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -11152,7 +11152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a133f1b-01c8-4c64-acdb-d6c03ba38f02")
-		(property "Reference" "U1"
+		(property "Reference" "U8"
 			(at 195.58 97.79 0)
 			(effects
 				(font
@@ -11222,7 +11222,7 @@
 		(instances
 			(project ""
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "U1")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -11650,7 +11650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acb0eede-79d1-42b4-b413-50db9701245f")
-		(property "Reference" "U1"
+		(property "Reference" "U8"
 			(at 199.39 138.43 0)
 			(effects
 				(font
@@ -11720,7 +11720,7 @@
 		(instances
 			(project "vocoder-pico-hardware"
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "U1")
+					(reference "U8")
 					(unit 2)
 				)
 			)
@@ -12218,7 +12218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c93c3440-8a4d-4f1e-a9fc-79f03fbdd679")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 152.4 142.24 0)
 			(effects
 				(font
@@ -12289,7 +12289,7 @@
 		(instances
 			(project "vocoder-pico-hardware"
 				(path "/68f2073a-7618-4fa5-a11d-b71bb4f75794"
-					(reference "U8")
+					(reference "U1")
 					(unit 3)
 				)
 			)
