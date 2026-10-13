@@ -3979,7 +3979,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "B10K lin"
 			(at 0 9.86 90)
 			(layer "F.Fab")
 			(uuid "3ab4773c-053a-4622-af2b-1c596a2fa9da")
@@ -4922,7 +4922,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "B10K lin"
 			(at 0 9.86 90)
 			(layer "F.Fab")
 			(uuid "906f5007-b559-40a5-a187-9b1d4943b96d")
