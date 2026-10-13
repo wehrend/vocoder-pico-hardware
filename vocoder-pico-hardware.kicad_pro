@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|65250000|80250000|F.Cu|4|94c59a71-9811-447d-88f8-bb57cbce8d1c|b4ab0e26-1eae-4039-b57e-aeb5fe7a8cf7",
+          "Taster: gleichnamige Pads intern verbunden, Anschluss nur diagonal"
+        ],
+        [
+          "unconnected_items|96250000|75750000|F.Cu|4|94ae40b9-9b39-4360-82be-20f694bdb9b1|d8bb4469-2174-416b-ad6b-cf8bdf9c86ad",
+          "Taster: gleichnamige Pads intern verbunden, Anschluss nur diagonal"
+        ]
+      ],
       "meta": {
         "version": 2
       },
