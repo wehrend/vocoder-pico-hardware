@@ -7767,7 +7767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 247.65 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7811,7 +7811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
 			(at 247.65 36.83 0)
 			(effects
 				(font
@@ -8787,7 +8787,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 209.55 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8797,7 +8797,7 @@
 		(fields_autoplaced yes)
 		(uuid "55487595-cad1-4e29-a26e-4ff4e013a034")
 		(property "Reference" "C9"
-			(at 213.36 46.1009 0)
+			(at 213.36 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8806,7 +8806,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 213.36 48.6409 0)
+			(at 213.36 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8832,7 +8832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
 			(at 209.55 48.26 0)
 			(effects
 				(font
@@ -13112,7 +13112,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 217.17 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13122,7 +13122,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd18cc84-5a90-4134-bf23-8f19fd37a569")
 		(property "Reference" "C12"
-			(at 220.98 30.8609 0)
+			(at 220.98 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13131,7 +13131,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 220.98 33.4009 0)
+			(at 220.98 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13157,7 +13157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
 			(at 217.17 33.02 0)
 			(effects
 				(font
