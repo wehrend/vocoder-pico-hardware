@@ -9793,7 +9793,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "707866ec-851e-4f5e-a7e7-26b669758384")
 		(property "Reference" "A1"
@@ -12380,7 +12380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 139.7 180.3399 0)
 			(effects
 				(font
