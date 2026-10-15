@@ -12210,7 +12210,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 264.16 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12237,7 +12237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 265.1252 85.09 0)
 			(effects
 				(font
