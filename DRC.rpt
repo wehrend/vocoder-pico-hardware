@@ -1,7 +1,11 @@
 ** Drc report for vocoder-pico-hardware.kicad_pcb **
-** Created on 2026-10-15T16:28:42+0200 **
+** Created on 2026-10-17T21:11:11+0200 **
 
-** Found 0 DRC violations **
+** Found 1 DRC violations **
+[copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0.5000 mm; tatsächlich 0.0000 mm)
+    Regel: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(49.0000 mm, 30.0000 mm): Abschnitt auf Edge.Cuts
+    @(49.8140 mm, 41.6500 mm): Leiterbahn [/Display Sheet/SEG_G] auf B.Cu, Länge 72.7710 mm
 
 ** Found 5 unconnected pads **
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
@@ -10,20 +14,20 @@
     @(48.5000 mm, 29.5000 mm): Zone "GND_Rueckseite" [GND] auf B.Cu, Priorität 0
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(68.6100 mm, 92.4500 mm): Durchsteckpad 18 [GND] von A1
-    @(73.5330 mm, 82.6160 mm): Pad 2 [GND] von C26 auf F.Cu
-[unconnected_items]: Fehlende Verbindung zwischen Elementen
-    Lokale Überschreibung; error
-    @(89.7500 mm, 75.7500 mm): Durchsteckpad 1 [GND] von SW2
     @(96.2500 mm, 75.7500 mm): Durchsteckpad 1 [GND] von SW2
+    @(48.5000 mm, 29.5000 mm): Zone "GND_Rueckseite" [GND] auf B.Cu, Priorität 0
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
     @(65.2500 mm, 80.2500 mm): Durchsteckpad 2 [Net-(A1-GPIO14)] von SW1
-    @(58.7500 mm, 80.2500 mm): Durchsteckpad 2 [Net-(A1-GPIO14)] von SW1
+    @(58.7500 mm, 80.2500 mm): Leiterbahn [Net-(A1-GPIO14)] auf B.Cu, Länge 1.4142 mm
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(96.2500 mm, 80.2500 mm): Leiterbahn [Net-(A1-GPIO15)] auf B.Cu, Länge 4.6147 mm
+    @(91.6353 mm, 80.2500 mm): Leiterbahn [Net-(A1-GPIO15)] auf B.Cu, Länge 9.5459 mm
     @(89.7500 mm, 80.2500 mm): Durchsteckpad 2 [Net-(A1-GPIO15)] von SW2
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(58.7040 mm, 42.6660 mm): Leiterbahn [/Display Sheet/SEG_G] auf F.Cu, Länge 5.7150 mm
+    @(49.8140 mm, 114.4210 mm): Leiterbahn [/Display Sheet/SEG_G] auf B.Cu, Länge 3.0533 mm
 
 ** Found 0 Footprint errors **
 
