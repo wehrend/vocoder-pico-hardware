@@ -4382,10 +4382,6 @@
 		(uuid "3d638114-800a-4662-a45f-c74af8b5ffdc")
 	)
 	(no_connect
-		(at 119.38 21.59)
-		(uuid "52ed4cc8-318f-43a0-aabe-12eeb895b25c")
-	)
-	(no_connect
 		(at 96.52 46.99)
 		(uuid "59bd28b5-86c4-40da-9df5-03f291c0c80b")
 	)
@@ -13520,6 +13516,15 @@
 			)
 		)
 	)
+	(sheet (at 165.1 113.03) (size 30.48 12.7) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "5b0e3801-a0b0-4cda-8068-d26c1fcec27d")
+		(property "Sheetname" "USB" (at 165.1 112.3184 0) (effects (font (size 1.27 1.27)) (justify left bottom)))
+		(property "Sheetfile" "usb.kicad_sch" (at 165.1 126.3146 0) (effects (font (size 1.27 1.27)) (justify left top) (hide yes)))
+		(instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794" (page "3"))))
+	)
+	(wire (pts (xy 119.38 21.59) (xy 119.38 16.51)) (stroke (width 0) (type default)) (uuid "81d8eb61-44db-4f6c-b2cf-9ac7302b53fd"))
+	(global_label "VBUS_USBC" (shape bidirectional) (at 119.38 16.51 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left)) (uuid "ebd76b86-1e5e-48c2-8578-ffbf2eb6d9ed") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))))
+
 	(sheet
 		(at 72.39 113.03)
 		(size 76.835 13.335)
