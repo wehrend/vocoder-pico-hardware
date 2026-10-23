@@ -1,0 +1,519 @@
+(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0") (uuid "5376d7cf-0fdc-46b3-b5a8-8cec26581740") (paper "A4") (title_block (title "USB-C programming port")) (lib_symbols 		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+(symbol "vocoder:USB_C_UJ20-C-V-C-2"  (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes) (property "Reference" "J" (at 0 0 0) (effects (font (size 1.27 1.27))))(property "Value" "UJ20-C-V-C-2-SMT-TR" (at 0 0 0) (effects (font (size 1.27 1.27))))(property "Footprint" "vocoder:USB_C_SameSky_UJ20-C-V-C-2_Vertical" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "USB 2.0 Type-C receptacle vertical 16P" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (symbol "USB_C_UJ20-C-V-C-2_0_1" (rectangle (start -7.62 20.32) (end 12.7 -5.08) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "USB_C_UJ20-C-V-C-2_1_1" (pin passive line (at 15.24 17.78 180) (length 2.54) (name "VBUS" (effects (font (size 1.27 1.27)))) (number "A4" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 17.78 180) (length 2.54) (hide yes) (name "VBUS" (effects (font (size 1.27 1.27)))) (number "A9" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 17.78 180) (length 2.54) (hide yes) (name "VBUS" (effects (font (size 1.27 1.27)))) (number "B4" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 17.78 180) (length 2.54) (hide yes) (name "VBUS" (effects (font (size 1.27 1.27)))) (number "B9" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 15.24 180) (length 2.54) (name "CC1" (effects (font (size 1.27 1.27)))) (number "A5" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 12.7 180) (length 2.54) (name "CC2" (effects (font (size 1.27 1.27)))) (number "B5" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 10.16 180) (length 2.54) (name "D+" (effects (font (size 1.27 1.27)))) (number "A6" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 10.16 180) (length 2.54) (hide yes) (name "D+" (effects (font (size 1.27 1.27)))) (number "B6" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 7.62 180) (length 2.54) (name "D-" (effects (font (size 1.27 1.27)))) (number "A7" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 7.62 180) (length 2.54) (hide yes) (name "D-" (effects (font (size 1.27 1.27)))) (number "B7" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 5.08 180) (length 2.54) (name "SBU1" (effects (font (size 1.27 1.27)))) (number "A8" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 2.54 180) (length 2.54) (name "SBU2" (effects (font (size 1.27 1.27)))) (number "B8" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 0.0 180) (length 2.54) (name "GND" (effects (font (size 1.27 1.27)))) (number "A1" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 0.0 180) (length 2.54) (hide yes) (name "GND" (effects (font (size 1.27 1.27)))) (number "A12" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 0.0 180) (length 2.54) (hide yes) (name "GND" (effects (font (size 1.27 1.27)))) (number "B1" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 0.0 180) (length 2.54) (hide yes) (name "GND" (effects (font (size 1.27 1.27)))) (number "B12" (effects (font (size 1.27 1.27))))) (pin passive line (at 15.24 -2.54 180) (length 2.54) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "S1" (effects (font (size 1.27 1.27)))))) (embedded_fonts no))
+(symbol "vocoder:USBLC6-2SC6"  (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 0 0) (effects (font (size 1.27 1.27))))(property "Value" "USBLC6-2SC6" (at 0 0 0) (effects (font (size 1.27 1.27))))(property "Footprint" "vocoder:SOT-23-6" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "ESD protection USB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (symbol "USBLC6-2SC6_0_1" (rectangle (start -5.08 5.08) (end 5.08 -5.08) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "USBLC6-2SC6_1_1" (pin passive line (at -7.62 2.54 0) (length 2.54) (name "I/O1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 7.62 2.54 180) (length 2.54) (name "I/O1" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27))))) (pin passive line (at -7.62 -2.54 0) (length 2.54) (name "I/O2" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27))))) (pin passive line (at 7.62 -2.54 180) (length 2.54) (name "I/O2" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 7.62 270) (length 2.54) (name "VBUS" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -7.62 90) (length 2.54) (name "GND" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))) (embedded_fonts no))
+(symbol "vocoder:Polyfuse" (pin_numbers (hide yes)) (pin_names (offset 1.016) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (property "Reference" "F" (at 0 0 0) (effects (font (size 1.27 1.27))))(property "Value" "Polyfuse" (at 0 0 0) (effects (font (size 1.27 1.27))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "PTC resettable fuse" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (symbol "Polyfuse_0_1" (rectangle (start -1.016 2.54) (end 1.016 -2.54) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy -1.524 -2.54) (xy -1.524 -1.524) (xy 1.524 1.524) (xy 1.524 2.54)) (stroke (width 0) (type default)) (fill (type none)))) (symbol "Polyfuse_1_1" (pin passive line (at 0 3.81 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -3.81 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))) (embedded_fonts no))
+(symbol "vocoder:D_Schottky" (pin_numbers (hide yes)) (pin_names (offset 1.016) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (property "Reference" "D" (at 0 0 0) (effects (font (size 1.27 1.27))))(property "Value" "D_Schottky" (at 0 0 0) (effects (font (size 1.27 1.27))))(property "Footprint" "vocoder:D_SOD-123" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "Schottky diode" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (symbol "D_Schottky_0_1" (polyline (pts (xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)) (stroke (width 0.254) (type default)) (fill (type none)))) (symbol "D_Schottky_1_1" (pin passive line (at -3.81 0 0) (length 2.54) (name "K" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 3.81 0 180) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))) (embedded_fonts no))
+(symbol "vocoder:Pogo" (pin_numbers (hide yes)) (pin_names (offset 1.016) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (property "Reference" "P" (at 0 0 0) (effects (font (size 1.27 1.27))))(property "Value" "Pogo" (at 0 0 0) (effects (font (size 1.27 1.27))))(property "Footprint" "vocoder:Pogo_P50_R50" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "spring contact to test pad" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (symbol "Pogo_0_1" (circle (center 0 0) (radius 0.762) (stroke (width 0.254) (type default)) (fill (type none)))) (symbol "Pogo_1_1" (pin passive line (at -3.81 0 0) (length 3.048) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))) (embedded_fonts no))) (text "USB-C programming port: D+/D- and BOOTSEL reach the Pico test pads TP3/TP2/TP6 via spring contacts P1-P3" (exclude_from_sim no) (at 25.4 25.4 0) (effects (font (size 1.524 1.524)) (justify left bottom)) (uuid "add07bb7-c3cd-4730-b8bc-cdb0a53942ae")) (symbol (lib_id "vocoder:USB_C_UJ20-C-V-C-2") (at 39.37 80.01 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "8d37ea5a-7cd7-47bf-81a4-c04c1a0c94f3") (property "Reference" "J4" (at 39.37 74.01 0) (effects (font (size 1.27 1.27))))(property "Value" "UJ20-C-V-C-2-SMT-TR" (at 39.37 86.01 0) (effects (font (size 1.27 1.27))))(property "Footprint" "vocoder:USB_C_SameSky_UJ20-C-V-C-2_Vertical" (at 39.37 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 39.37 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 39.37 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "MPN" "UJ20-C-V-C-2-SMT-TR" (at 39.37 80.01 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Manufacturer" "Same Sky" (at 39.37 80.01 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "A4" (uuid "f158f313-42e7-4947-83e7-d02b41459084"))(pin "A9" (uuid "006f4ce9-2a5a-4953-9e2b-ed71c667f2d8"))(pin "B4" (uuid "f7d50fde-6450-446c-92e7-aceb42f853b9"))(pin "B9" (uuid "80ebd6ae-af79-41ec-92af-dba91b5f9774"))(pin "A5" (uuid "3e451f5d-78b9-48fd-be78-962dfe1e82ab"))(pin "B5" (uuid "b3b4752d-1f05-4854-b39b-15640caa71dd"))(pin "A6" (uuid "043c2c43-99a1-46f1-8170-3e3df6f8ea66"))(pin "B6" (uuid "33b58baa-fd82-48ad-ba21-8689856d833e"))(pin "A7" (uuid "06f4af6c-51dc-4b95-b9a8-d66e55a1f700"))(pin "B7" (uuid "b5f121c6-1bbc-47d1-b9f4-ed054f82cddd"))(pin "A8" (uuid "5cd2f114-17b1-4f3a-933b-15b0ea37f915"))(pin "B8" (uuid "a415f5dc-c38f-425d-9f76-3312810ad5d2"))(pin "A1" (uuid "d7151bcb-cc62-4846-9f09-503c23fe06e5"))(pin "A12" (uuid "59f267d1-8f6a-487e-83fe-c7ac4c8b9e39"))(pin "B1" (uuid "06c7a40b-97b0-42a0-a663-fd8f99a34dde"))(pin "B12" (uuid "0d2d5b61-6128-4106-85b9-ab4ea39129b2"))(pin "S1" (uuid "0d4bdd5f-0dbb-49c1-8392-bb7b6181d439")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "J4") (unit 1))))) (wire (pts (xy 54.61 62.23) (xy 57.15 62.23)) (stroke (width 0) (type default)) (uuid "4f52ecc0-c6ab-4be8-8e5d-8ea667a91e5e")) (label "VBUS_C" (at 57.15 62.23 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1e147a06-623a-48bd-bf35-90076b68fb06")) (wire (pts (xy 54.61 64.77) (xy 57.15 64.77)) (stroke (width 0) (type default)) (uuid "716db3c9-df66-4414-a221-c86a926a8579")) (label "CC1" (at 57.15 64.77 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e084882c-b546-4687-9f5b-c676a8b8e128")) (wire (pts (xy 54.61 67.31) (xy 57.15 67.31)) (stroke (width 0) (type default)) (uuid "996d8488-ca21-482f-ab48-6d7025a3e2e1")) (label "CC2" (at 57.15 67.31 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7917794c-2b65-49fd-98cf-506f05462b74")) (wire (pts (xy 54.61 69.85) (xy 57.15 69.85)) (stroke (width 0) (type default)) (uuid "adaf0ed1-767e-40cd-be03-3674a55f241b")) (label "USB_DP" (at 57.15 69.85 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2f9afebb-cb79-42cc-a9d6-c94237b65629")) (wire (pts (xy 54.61 72.39) (xy 57.15 72.39)) (stroke (width 0) (type default)) (uuid "d8ef6f81-afb3-4544-9f81-ba61291112eb")) (label "USB_DN" (at 57.15 72.39 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "18df3976-eacb-4fba-a613-2b9bec51b9d4")) (wire (pts (xy 54.61 82.55) (xy 57.15 82.55)) (stroke (width 0) (type default)) (uuid "96b3eb35-717a-4ad7-8d08-4eb93674e4bb")) (label "SHLD" (at 57.15 82.55 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2ef41247-7645-46ee-a241-6460999837f2")) (no_connect (at 54.61 74.93) (uuid "aa2f1c6e-72a4-41ca-87bf-22d5bdbba984")) (no_connect (at 54.61 77.47) (uuid "6e51d106-ac04-4ab1-b54c-90fe4f930798")) (wire (pts (xy 54.61 80.01) (xy 57.15 80.01)) (stroke (width 0) (type default)) (uuid "a83aed76-4c96-4a2a-9833-3e5efc6272dd")) (symbol (lib_id "power:GND") (at 57.15 80.01 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "1a5ba723-5c44-4b10-a549-3a43d7eee820") (property "Reference" "#PWR040" (at 57.15 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Value" "GND" (at 57.15 83.82000000000001 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 57.15 80.01 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 57.15 80.01 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "" (at 57.15 80.01 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "a157d625-1bc8-418c-a524-960a15e3d840")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "#PWR040") (unit 1))))) (symbol (lib_id "Device:R") (at 96.52 96.52 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "6b31bd44-1a30-40a6-a639-45c1792e1835") (property "Reference" "R30" (at 96.52 90.52 0) (effects (font (size 1.27 1.27))))(property "Value" "5.1k" (at 96.52 102.52 0) (effects (font (size 1.27 1.27))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 96.52 96.52 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 96.52 96.52 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 96.52 96.52 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "bc4fddef-407c-4a84-9372-4874979a3c12"))(pin "2" (uuid "4eb642c3-6ac0-4be7-bb24-0d8a376a49df")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "R30") (unit 1))))) (wire (pts (xy 96.52 92.71) (xy 96.52 90.17)) (stroke (width 0) (type default)) (uuid "623a5de1-a9d1-4155-8d13-1a7ba7ff081b")) (label "CC1" (at 96.52 90.17 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f39acf93-fd41-4b4e-8002-579cedc63487")) (wire (pts (xy 96.52 100.33) (xy 96.52 102.87)) (stroke (width 0) (type default)) (uuid "9a35a397-f752-43fc-b3ab-42e838c502f7")) (symbol (lib_id "power:GND") (at 96.52 102.87 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "5c958677-3ac8-4c26-8ad3-7e51fc647ed8") (property "Reference" "#PWR041" (at 96.52 109.22 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Value" "GND" (at 96.52 106.68 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 96.52 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 96.52 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "" (at 96.52 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c9d4c77d-2ddb-4ea6-b124-46bd63f1c4c9")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "#PWR041") (unit 1))))) (symbol (lib_id "Device:R") (at 106.68 96.52 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "ce09d2a0-31ed-42d2-8231-cd6bbd6c5c6a") (property "Reference" "R31" (at 106.68 90.52 0) (effects (font (size 1.27 1.27))))(property "Value" "5.1k" (at 106.68 102.52 0) (effects (font (size 1.27 1.27))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 106.68 96.52 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 106.68 96.52 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 106.68 96.52 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "bc81a0b1-7972-4e9e-ab74-373fd1cdde60"))(pin "2" (uuid "8bcf8b6f-95dc-48ad-a672-9f26aff1a19d")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "R31") (unit 1))))) (wire (pts (xy 106.68 92.71) (xy 106.68 90.17)) (stroke (width 0) (type default)) (uuid "2e57becc-2e3e-47c4-aa63-050f9a67dc98")) (label "CC2" (at 106.68 90.17 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a07f5d93-4ae0-4b78-9265-12b54f59d9d8")) (wire (pts (xy 106.68 100.33) (xy 106.68 102.87)) (stroke (width 0) (type default)) (uuid "24f348bc-ca74-42ec-b68d-2a1079145da3")) (symbol (lib_id "power:GND") (at 106.68 102.87 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "53734812-e9f7-431d-a44d-2dac240d0266") (property "Reference" "#PWR042" (at 106.68 109.22 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Value" "GND" (at 106.68 106.68 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 106.68 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 106.68 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "" (at 106.68 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "02b05e53-637d-45ba-8b89-facc61421487")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "#PWR042") (unit 1))))) (symbol (lib_id "Device:R") (at 116.84 96.52 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "8b162f99-c551-47d8-a890-9b15989449ba") (property "Reference" "R32" (at 116.84 90.52 0) (effects (font (size 1.27 1.27))))(property "Value" "1M" (at 116.84 102.52 0) (effects (font (size 1.27 1.27))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 116.84 96.52 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 116.84 96.52 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 116.84 96.52 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c47fb7a0-2eab-4e2f-8b2d-9969de0faf97"))(pin "2" (uuid "753e0948-6f3d-45f1-9c34-f01aef0de0ac")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "R32") (unit 1))))) (wire (pts (xy 116.84 92.71) (xy 116.84 90.17)) (stroke (width 0) (type default)) (uuid "3e8a6b54-ca66-476c-87c4-87bb3c08ed5e")) (label "SHLD" (at 116.84 90.17 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "17aa3151-0717-419c-ab73-5e7773fac9b5")) (wire (pts (xy 116.84 100.33) (xy 116.84 102.87)) (stroke (width 0) (type default)) (uuid "4b6b789a-acfc-400e-a4ea-409b21ad412d")) (symbol (lib_id "power:GND") (at 116.84 102.87 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "7c186357-95dd-4627-aaaf-720f8b4888a8") (property "Reference" "#PWR043" (at 116.84 109.22 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Value" "GND" (at 116.84 106.68 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 116.84 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 116.84 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "" (at 116.84 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f7d77378-c821-4b08-8b53-5ab45e5a6b39")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "#PWR043") (unit 1))))) (symbol (lib_id "Device:C") (at 127.0 96.52 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b2192ee3-f8c7-46d6-857a-cfa68ac5e005") (property "Reference" "C30" (at 127.0 90.52 0) (effects (font (size 1.27 1.27))))(property "Value" "4.7nF" (at 127.0 102.52 0) (effects (font (size 1.27 1.27))))(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 127.0 96.52 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 127.0 96.52 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 127.0 96.52 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "706b9e84-ccfc-451d-b06a-61904bf44851"))(pin "2" (uuid "b1a09bc6-18ad-4513-b4b2-e355f29fed71")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "C30") (unit 1))))) (wire (pts (xy 127.0 92.71) (xy 127.0 90.17)) (stroke (width 0) (type default)) (uuid "0d7ebd52-277e-4dbe-a3f1-86a9fd11734a")) (label "SHLD" (at 127.0 90.17 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bc904fb9-b91d-43e3-8c2b-a6f67de66c45")) (wire (pts (xy 127.0 100.33) (xy 127.0 102.87)) (stroke (width 0) (type default)) (uuid "b2f31443-543b-4a56-ae1a-6790af651538")) (symbol (lib_id "power:GND") (at 127.0 102.87 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "c605eff2-cbea-4d80-837a-d7e6cb68553c") (property "Reference" "#PWR044" (at 127.0 109.22 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Value" "GND" (at 127.0 106.68 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 127.0 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 127.0 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "" (at 127.0 102.87 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "a98a40c8-881f-4a86-b04e-0d382314a685")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "#PWR044") (unit 1))))) (symbol (lib_id "vocoder:Polyfuse") (at 96.52 45.72 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "4681887e-6980-451d-b73e-deaeb5121227") (property "Reference" "F1" (at 96.52 39.72 0) (effects (font (size 1.27 1.27))))(property "Value" "500mA PTC" (at 96.52 51.72 0) (effects (font (size 1.27 1.27))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 96.52 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 96.52 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 96.52 45.72 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "066a67e6-0bfb-4813-ae83-4bc120bc66df"))(pin "2" (uuid "0b00144d-22ce-4bc3-ba87-a1679ce0e5c0")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "F1") (unit 1))))) (wire (pts (xy 96.52 41.91) (xy 96.52 39.37)) (stroke (width 0) (type default)) (uuid "45faa1c0-24ea-4d20-b0bb-1e83df08b466")) (label "VBUS_C" (at 96.52 39.37 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bac9c8fd-26a0-4d24-be2a-eb74b8070f25")) (wire (pts (xy 96.52 49.53) (xy 96.52 52.07)) (stroke (width 0) (type default)) (uuid "adfa6b7f-27de-4255-9c2b-f827f5a4c8a3")) (label "VBUS_F" (at 96.52 52.07 270) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "ce3f3ab6-005e-4716-8da6-ff9cc1017ade")) (symbol (lib_id "vocoder:D_Schottky") (at 120.65 45.72 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b7d0f917-3247-4f37-b550-62b481e68e19") (property "Reference" "D4" (at 120.65 39.72 0) (effects (font (size 1.27 1.27))))(property "Value" "MBR0520LT1G" (at 120.65 51.72 0) (effects (font (size 1.27 1.27))))(property "Footprint" "vocoder:D_SOD-123" (at 120.65 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 120.65 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 120.65 45.72 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "97a4523d-8e46-49ba-b92b-99a575ff0b86"))(pin "2" (uuid "dcd6d7b6-b433-41c0-989c-20afcaa1ef6c")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "D4") (unit 1))))) (wire (pts (xy 116.84 45.72) (xy 114.3 45.72)) (stroke (width 0) (type default)) (uuid "84220074-47ba-45ec-bb8d-1fb518de021f")) (global_label "VBUS_USBC" (shape bidirectional) (at 114.3 45.72 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "5017ea04-3a52-446d-9fb1-5180a12a2f9a") (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))) (wire (pts (xy 124.46 45.72) (xy 127.0 45.72)) (stroke (width 0) (type default)) (uuid "0725e871-ad0c-461a-8729-3bcdd8335825")) (label "VBUS_F" (at 127.0 45.72 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "52f7f142-2137-44a7-8545-bbda8b1804ee")) (symbol (lib_id "vocoder:USBLC6-2SC6") (at 160.02 76.2 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "2f8e44f7-d618-406e-8638-a98b68bd33f6") (property "Reference" "U9" (at 160.02 70.2 0) (effects (font (size 1.27 1.27))))(property "Value" "USBLC6-2SC6" (at 160.02 82.2 0) (effects (font (size 1.27 1.27))))(property "Footprint" "vocoder:SOT-23-6" (at 160.02 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 160.02 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 160.02 76.2 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "730ea136-db82-4855-b704-acc1301b9b45"))(pin "2" (uuid "025f26c4-7559-48d9-91b1-c2d4478edc6d"))(pin "3" (uuid "3d2bb261-a360-4a5d-85eb-476762887580"))(pin "4" (uuid "e0a1d8ed-6c06-42fb-85e9-f696b7904903"))(pin "5" (uuid "491c2add-3853-438f-bf9f-b9a42b69c738"))(pin "6" (uuid "9bdc8400-99db-43e1-8ded-4a0b0be4e565")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "U9") (unit 1))))) (wire (pts (xy 152.4 73.66) (xy 149.86 73.66)) (stroke (width 0) (type default)) (uuid "8d897706-5fe9-45a9-9c3c-884d0a599c0a")) (label "USB_DP" (at 149.86 73.66 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "ea88baa9-cf2d-4617-919e-c6f0456faf2c")) (wire (pts (xy 167.64 73.66) (xy 170.18 73.66)) (stroke (width 0) (type default)) (uuid "c653c6a9-1759-4525-b678-e131b0f09ac9")) (label "USB_DP" (at 170.18 73.66 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f95eec45-4662-4f1a-b7a5-47ebedb942d2")) (wire (pts (xy 152.4 78.74) (xy 149.86 78.74)) (stroke (width 0) (type default)) (uuid "a27802c2-74ed-4c15-bc4d-262a2abfaff2")) (label "USB_DN" (at 149.86 78.74 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "f57f8181-622f-4f0c-bca9-360cf1e4a295")) (wire (pts (xy 167.64 78.74) (xy 170.18 78.74)) (stroke (width 0) (type default)) (uuid "4bc4ca13-91b3-440d-9130-8dc890399ebd")) (label "USB_DN" (at 170.18 78.74 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4008d1df-0a08-4054-9f4d-64f601aa189a")) (wire (pts (xy 160.02 68.58) (xy 160.02 66.04)) (stroke (width 0) (type default)) (uuid "e17e29ab-e621-4d57-9d63-ea205443c133")) (label "VBUS_F" (at 160.02 66.04 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "28e265c3-ee7b-456d-8577-62126a36ff70")) (wire (pts (xy 160.02 83.82) (xy 160.02 86.36)) (stroke (width 0) (type default)) (uuid "8aa09e93-93d3-4c08-b46f-42bd7c0e671f")) (symbol (lib_id "power:GND") (at 160.02 86.36 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "f588d632-6b3a-42ef-bdef-08587153641c") (property "Reference" "#PWR045" (at 160.02 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Value" "GND" (at 160.02 90.17 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 160.02 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 160.02 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "" (at 160.02 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5de7fdd8-e6a7-4c45-84bd-b05d1512c0d3")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "#PWR045") (unit 1))))) (symbol (lib_id "vocoder:Pogo") (at 205.74 60.96 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "33be3bd0-77a0-4c59-9d0e-04ee2776085a") (property "Reference" "P1" (at 205.74 54.96 0) (effects (font (size 1.27 1.27))))(property "Value" "Pogo P50 + R50" (at 205.74 66.96000000000001 0) (effects (font (size 1.27 1.27))))(property "Footprint" "vocoder:Pogo_P50_R50" (at 205.74 60.96 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 205.74 60.96 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 205.74 60.96 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2d7c5c50-cf5b-4a19-b003-87e0f698e122")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "P1") (unit 1))))) (wire (pts (xy 201.93 60.96) (xy 199.39 60.96)) (stroke (width 0) (type default)) (uuid "1e46139d-ae10-48f7-9eb0-1ddbb04162d1")) (label "USB_DP" (at 199.39 60.96 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "e52775ff-a6a3-456f-9b68-9ca515a75610")) (symbol (lib_id "vocoder:Pogo") (at 205.74 71.12 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "3d8474d9-a5c6-4568-8ff6-d4a7dab449af") (property "Reference" "P2" (at 205.74 65.12 0) (effects (font (size 1.27 1.27))))(property "Value" "Pogo P50 + R50" (at 205.74 77.12 0) (effects (font (size 1.27 1.27))))(property "Footprint" "vocoder:Pogo_P50_R50" (at 205.74 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 205.74 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 205.74 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "94ffa63e-000a-457b-af68-32b338507f17")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "P2") (unit 1))))) (wire (pts (xy 201.93 71.12) (xy 199.39 71.12)) (stroke (width 0) (type default)) (uuid "ba6e6c5d-fbdb-4fc1-af6b-cd21efba02fe")) (label "USB_DN" (at 199.39 71.12 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "ceeb3491-617e-407b-9136-63a853be7f8f")) (symbol (lib_id "vocoder:Pogo") (at 205.74 81.28 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "6b554be4-ec0a-4a45-9bbb-556296cadf30") (property "Reference" "P3" (at 205.74 75.28 0) (effects (font (size 1.27 1.27))))(property "Value" "Pogo P50 + R50" (at 205.74 87.28 0) (effects (font (size 1.27 1.27))))(property "Footprint" "vocoder:Pogo_P50_R50" (at 205.74 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 205.74 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 205.74 81.28 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "05257dbd-f514-447d-a338-42b6c76ad001")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "P3") (unit 1))))) (wire (pts (xy 201.93 81.28) (xy 199.39 81.28)) (stroke (width 0) (type default)) (uuid "2026c3f4-ebf0-41ea-9a90-d8b9e0fb3e16")) (label "BOOTSEL" (at 199.39 81.28 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "468be211-e6f5-433b-8255-627dc820b6ea")) (symbol (lib_id "Switch:SW_Push") (at 205.74 104.14 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "5b7990fc-e223-4511-9c7c-33dc6cbed607") (property "Reference" "SW3" (at 205.74 98.14 0) (effects (font (size 1.27 1.27))))(property "Value" "BOOTSEL" (at 205.74 110.14 0) (effects (font (size 1.27 1.27))))(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 205.74 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Datasheet" "" (at 205.74 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))(property "Description" "" (at 205.74 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "be1b3e0d-5982-40b8-9f60-6a9c8e02a416"))(pin "2" (uuid "b43e3c59-bfb7-4512-95f1-40c5adf5a58e")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "SW3") (unit 1))))) (wire (pts (xy 200.66 104.14) (xy 198.12 104.14)) (stroke (width 0) (type default)) (uuid "21b788ae-1943-4b12-b82e-935120a71aa2")) (label "BOOTSEL" (at 198.12 104.14 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "808554d8-2258-483b-9ce0-a45848e52fee")) (wire (pts (xy 210.82 104.14) (xy 213.36 104.14)) (stroke (width 0) (type default)) (uuid "11688d93-2ebe-456d-b4db-41420433d408")) (symbol (lib_id "power:GND") (at 213.36 104.14 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "f77452ec-f33b-491b-9676-ba324edbe67d") (property "Reference" "#PWR046" (at 213.36 110.49 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Value" "GND" (at 213.36 107.95 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 213.36 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 213.36 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "" (at 213.36 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e563c309-682c-4889-8168-58322d042555")) (instances (project "vocoder-pico-hardware" (path "/68f2073a-7618-4fa5-a11d-b71bb4f75794/5b0e3801-a0b0-4cda-8068-d26c1fcec27d" (reference "#PWR046") (unit 1))))) (embedded_fonts no))

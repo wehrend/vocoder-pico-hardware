@@ -1,17 +1,29 @@
 ** Drc report for vocoder-pico-hardware.kicad_pcb **
-** Created on 2026-10-19T12:55:05+0200 **
+** Created on 2026-10-23T13:16:19+0200 **
 
-** Found 1 DRC violations **
-[tracks_crossing]: Leiterbahnkreuzung
-    Regel: Netzklasse "Default"; error
-    @(84.6512 mm, 68.1112 mm): Leiterbahn [Net-(A1-GPIO12)] auf F.Cu, Länge 3.9233 mm
-    @(85.3740 mm, 71.2410 mm): Leiterbahn [Net-(U3-LDOO)] auf F.Cu, Länge 1.6000 mm
+** Found 3 DRC violations **
+[clearance]: Freiraum-Verstoß (Netzklasse "Power" Freiraum 0.2000 mm; tatsächlich 0.0161 mm)
+    Regel: Netzklasse "Power"; error
+    @(88.6500 mm, 104.2500 mm): Via [GP3_SEG_B] auf F.Cu - B.Cu
+    @(87.1900 mm, 105.1500 mm): Pad 28 [GND] von A1 auf B.Cu
+[clearance]: Freiraum-Verstoß (Netzklasse "Power" Freiraum 0.2000 mm; tatsächlich 0.1911 mm)
+    Regel: Netzklasse "Power"; error
+    @(87.1900 mm, 105.1500 mm): Pad 28 [GND] von A1 auf B.Cu
+    @(88.6500 mm, 104.2500 mm): Leiterbahn [GP3_SEG_B] auf B.Cu, Länge 1.3793 mm
+[hole_clearance]: Loch-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zu Löchern Freiraum 0.2500 mm; tatsächlich 0.1661 mm)
+    Regel: Einschränkungen aus Platinenkonfiguration zu Löchern; error
+    @(87.1900 mm, 105.1500 mm): Pad 28 [GND] von A1 auf B.Cu
+    @(88.6500 mm, 104.2500 mm): Via [GP3_SEG_B] auf F.Cu - B.Cu
 
-** Found 4 unconnected pads **
+** Found 5 unconnected pads **
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
-    @(48.5000 mm, 29.5000 mm): Zone "GND_Rueckseite" [GND] auf B.Cu, Priorität 0
     @(58.7500 mm, 75.7500 mm): Durchsteckpad 1 [GND] von SW1
+    @(48.5000 mm, 29.5000 mm): Zone "GND_Rueckseite" [GND] auf B.Cu, Priorität 0
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(74.2500 mm, 129.6000 mm): Durchsteckpad A1 [GND] von J4
+    @(48.5000 mm, 29.5000 mm): Zone "GND_Rueckseite" [GND] auf B.Cu, Priorität 0
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
     @(96.2500 mm, 75.7500 mm): Durchsteckpad 1 [GND] von SW2
@@ -19,7 +31,7 @@
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
     @(65.2500 mm, 80.2500 mm): Durchsteckpad 2 [Net-(A1-GPIO14)] von SW1
-    @(58.7500 mm, 80.2500 mm): Durchsteckpad 2 [Net-(A1-GPIO14)] von SW1
+    @(58.7500 mm, 80.2500 mm): Leiterbahn [Net-(A1-GPIO14)] auf B.Cu, Länge 1.4142 mm
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
     @(91.6353 mm, 80.2500 mm): Leiterbahn [Net-(A1-GPIO15)] auf B.Cu, Länge 9.5459 mm
