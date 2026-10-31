@@ -1,11 +1,7 @@
 ** Drc report for vocoder-pico-hardware.kicad_pcb **
-** Created on 2026-10-19T12:55:05+0200 **
+** Created on 2026-10-24T12:43:42+0200 **
 
-** Found 1 DRC violations **
-[tracks_crossing]: Leiterbahnkreuzung
-    Regel: Netzklasse "Default"; error
-    @(84.6512 mm, 68.1112 mm): Leiterbahn [Net-(A1-GPIO12)] auf F.Cu, Länge 3.9233 mm
-    @(85.3740 mm, 71.2410 mm): Leiterbahn [Net-(U3-LDOO)] auf F.Cu, Länge 1.6000 mm
+** Found 0 DRC violations **
 
 ** Found 4 unconnected pads **
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
@@ -19,7 +15,7 @@
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
     @(65.2500 mm, 80.2500 mm): Durchsteckpad 2 [Net-(A1-GPIO14)] von SW1
-    @(58.7500 mm, 80.2500 mm): Durchsteckpad 2 [Net-(A1-GPIO14)] von SW1
+    @(58.7500 mm, 80.2500 mm): Leiterbahn [Net-(A1-GPIO14)] auf B.Cu, Länge 1.4142 mm
 [unconnected_items]: Fehlende Verbindung zwischen Elementen
     Lokale Überschreibung; error
     @(91.6353 mm, 80.2500 mm): Leiterbahn [Net-(A1-GPIO15)] auf B.Cu, Länge 9.5459 mm

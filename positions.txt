@@ -1,0 +1,6 @@
+Platzierungsdatei der Vorderseite (Oberseite): "/home/sven/development/frontend_masterclass/abschlussprojekt/hardware/vocoder-pico-hardware/vocoder-pico-hardware-top.pos".
+Hinweis: Bauteilmenge: 51.
+Platzierungsdatei der Rückseite (Unterseite): "/home/sven/development/frontend_masterclass/abschlussprojekt/hardware/vocoder-pico-hardware/vocoder-pico-hardware-bottom.pos".
+Hinweis: Bauteilmenge: 29.
+Hinweis: Gesamtmenge der Bauteile: 80.
+Hinweis: Fertig.
